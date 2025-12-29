@@ -1,0 +1,38 @@
+Link of the live PowerBI Dashboard - https://app.powerbi.com/view?r=eyJrIjoiNzRmYzUzNDYtYjQ0MC00NWJjLWFkMjAtOTAyZjM4ODYyNGMwIiwidCI6ImJiYzIxNzVlLTUyZDEtNGVkNi1iYzNhLTNhYzQ3OWY1ODM5ZCIsImMiOjEwfQ%3D%3D&pageName=b39bed42825f5839aed9
+
+Data Cleaning and Preparation
+
+The 'company' column was largely empty and therefore dropped.
+Missing values in the 'agent' column were imputed with the mode (9.0) and converted to integer type.
+Null values in the 'children' column were filled with the median (0.0).
+Missing country information was replaced with the mode ('PRT').
+Bookings with zero adults, children, and babies were removed as they represent invalid entries.
+
+
+
+Key Findings
+
+Overall Cancellation Rate: The total cancellation rate across both hotel types is approximately 37%.
+
+Hotel Type Performance:
+City Hotels have a higher volume of bookings than Resort Hotels.
+City Hotels also show a higher cancellation rate (around 41.7%) compared to Resort Hotels (approximately 27.7%).
+Impact of Lead Time: An increase in lead time (time between booking and arrival) correlates with a higher cancellation rate.
+
+Seasonal Trends:
+August and July are the busiest months for hotel bookings.
+The year 2016 recorded the highest number of bookings.
+January and October have the highest cancellation rates.
+
+Geographical Analysis:
+Portugal (PRT) is the country with the most bookings and also the highest number of cancellations.
+
+Market Segment and Distribution:
+"Online TA" (Online Travel Agents) is the most common market segment, and bookings from this segment have a significantly higher cancellation rate.
+The "TA/TO" (Travel Agents/Tour Operators) distribution channel is the most frequently utilized.
+Deposit Type Influence: Bookings made with "No Deposit" are more prone to cancellation compared to those with "Non Refund" deposits.
+
+Customer Behavior:
+"Transient" customers are the most frequent bookers and exhibit the highest cancellation rates.
+Guests who make fewer booking changes are more likely to cancel.
+Customers with fewer special requests tend to cancel more often, suggesting that special requests may indicate a stronger commitment.
